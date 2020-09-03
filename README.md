@@ -12,6 +12,7 @@
 
 #Para compilar o projeto
 - $ npm start
+- Todas as rotas possuem autenticação para obter o token basta fazer uma chamada GET("/boticario/authenticate") e passar no headers o Authorization com o valor do token obtido
 
 #Para testar o projeto
 - $ npm test
