@@ -1,0 +1,30 @@
+{
+  "name": "node.js-boticario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "mocha --exit src/test/dealerController.test.js",
+    "deploy": "gcloud preview app deploy"
+  },
+  "keywords": [],
+  "author": "Thamiris Lopes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.6",
+    "nodemon": "^1.19.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  }
+}
